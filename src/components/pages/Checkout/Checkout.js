@@ -17,7 +17,7 @@ const Checkout = () => {
     
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/services/${serviceID}`)
+        fetch(`https://frightening-corpse-85903.herokuapp.com/services/${serviceID}`)
         .then(res => res.json())
         .then(data => {
             setService(data);
@@ -34,7 +34,7 @@ const Checkout = () => {
      * @param {*} data recive form data
      */
     const onSubmit = async data => {
-        await fetch('http://localhost:5000/order', {
+        await fetch('https://frightening-corpse-85903.herokuapp.com/order', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'

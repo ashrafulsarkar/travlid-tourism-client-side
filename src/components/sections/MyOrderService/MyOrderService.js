@@ -7,7 +7,7 @@ const MyOrderService = (props) => {
 
     const handerDelete = async id =>{
         if (window.confirm("Are you sure you want to delete it?")) {
-            await fetch(`http://localhost:5000/order/${id}`,{
+            await fetch(`https://frightening-corpse-85903.herokuapp.com/order/${id}`,{
                 method: 'DELETE'
             })
             .then(res => res.json())

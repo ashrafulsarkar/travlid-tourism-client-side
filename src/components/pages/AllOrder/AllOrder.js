@@ -7,7 +7,7 @@ const AllOrder = () => {
     const [allOrder, setAllOrder] = useState([]);
     const [data, setData] = useState(false);
     useEffect(()=>{
-        fetch('http://localhost:5000/order')
+        fetch('https://frightening-corpse-85903.herokuapp.com/order')
         .then(res => res.json())
         .then(data => {
             setAllOrder(data);

@@ -18,7 +18,7 @@ const MyOrder = () => {
     }
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/order/${user.email}`)
+        fetch(`https://frightening-corpse-85903.herokuapp.com/order/${user.email}`)
         .then(res => res.json())
         .then(data => {
             setMyOrder(data);
@@ -33,7 +33,7 @@ const MyOrder = () => {
 
     useEffect(()=>{
         const serviceID = JSON.stringify(myOrder.map(order => order.serviceId));
-        fetch(`http://localhost:5000/services/myorder/${serviceID}`)
+        fetch(`https://frightening-corpse-85903.herokuapp.com/services/myorder/${serviceID}`)
         .then(res => res.json())
         .then(data => {
             // setMyService(data);

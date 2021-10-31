@@ -7,7 +7,7 @@ const AddService = () => {
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
     const [massage, setMassage] = useState('');
     const onSubmit = async  data => {
-        await fetch('http://localhost:5000/services', {
+        await fetch('https://frightening-corpse-85903.herokuapp.com/services', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'

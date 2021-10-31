@@ -6,7 +6,7 @@ const AllOrderData = (props) => {
 
     const handerAproved = async id =>{
         if (window.confirm("Are you sure you want to Update it?")) {
-            await fetch(`http://localhost:5000/order/${id}`,{
+            await fetch(`https://frightening-corpse-85903.herokuapp.com/order/${id}`,{
                 method: 'PUT',
                 headers: {
                 'Content-Type': 'application/json'

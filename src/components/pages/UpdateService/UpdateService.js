@@ -37,7 +37,7 @@ const UpdateService = () => {
     }
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/services/${serviceID}`)
+        fetch(`https://frightening-corpse-85903.herokuapp.com/services/${serviceID}`)
         .then(res => res.json())
         .then(data => {
             setService(data);
@@ -55,7 +55,7 @@ const UpdateService = () => {
     const handleSubmit = async e => {
         e.preventDefault();
 
-        await fetch(`http://localhost:5000/services/${serviceID}`, {
+        await fetch(`https://frightening-corpse-85903.herokuapp.com/services/${serviceID}`, {
             method: 'PUT',
             headers: {
               'Content-Type': 'application/json'
