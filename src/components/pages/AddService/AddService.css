@@ -1,0 +1,19 @@
+.add-service label {
+    width: 100%;
+    margin: 0;
+}
+.add-service input {
+    width: 100%;
+    margin-bottom: 16px;
+    height: 40px;
+}
+/*includ this code css file*/
+
+input[type="number"]::-webkit-inner-spin-button,            /* chrome */
+input[type="number"]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    
+}
+input[type="number"]{                                       /* firefox */
+    -moz-appearance: textfield;
+}

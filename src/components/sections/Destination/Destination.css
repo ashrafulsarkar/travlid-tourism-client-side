@@ -1,0 +1,84 @@
+#destination {
+    padding-top: 50px;
+    position: relative;
+}
+.site-tile h3 {
+    font-size: 50px;
+    line-height: 63px;
+    position: relative;
+}
+.site-tile h3::after {
+    content: '';
+    position: absolute;
+    background: #00A790;
+    width: 242px;
+    height: 2px;
+    left: 0;
+    bottom: -29px;
+}
+.destination-img img {
+    border-radius: 10px;
+}
+.destination-filter {
+    margin-top: 85px;
+}
+.destination-text {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    background: #F4FBFA;
+    width: 295px;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.destination-text h4 {
+    font-size: 24px;
+    line-height: 30px;
+    padding-top: 18px;
+    margin-bottom: 6px;
+}
+.destination-text p {
+    font-size: 17px;
+    line-height: 21px;
+    margin-bottom: 12px;
+}
+.destStar {
+    padding-bottom: 15px;
+}
+.destStar i {
+    color: #FFC107;
+    font-size: 10px;
+}
+.destBtn {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+}
+.destBtn .btn {
+    padding: 10px 12px;
+}
+.destination-items:hover .destBtn {
+    padding-bottom: 20px;
+    height: auto;
+}
+.destination-menu button {
+    background: none;
+    border: none;
+    padding: 14px 33px;
+    font-size: 16px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.destination-menu button.active {
+    background: #00A790;
+    color: #fff;
+}

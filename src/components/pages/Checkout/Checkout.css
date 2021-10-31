@@ -1,0 +1,74 @@
+.check-title h3 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+}
+.check-form input,
+.contact-form input {
+    width: 100%;
+    font-size: 18px;
+    line-height: 23px;
+    border: none;
+    border-bottom: 1px solid #707070;
+}
+.contact-form textarea {
+    width: 100%;
+    height: 120px;
+    resize: none;
+    font-size: 18px;
+    line-height: 23px;
+    border: none;
+    border-bottom: 1px solid #707070;
+}
+.payment-img {
+    max-width: 295px;
+}
+.check-out-label input {
+    width: inherit;
+    margin-right: 10px;
+}
+.check-out-label {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.check-out-btn .btn {
+    padding: 21px 38px;
+}
+.cart {
+    background: #fff;
+    border-radius: 8px;
+    padding: 25px 0;
+    box-shadow: 0 0 20px 20px #efefef5e;
+}
+.cart-items {
+    padding: 0 25px;
+}
+.cart-img img {
+    border-radius: 8px;
+}
+.cart-details h4 {
+    font-size: 26px;
+    text-align: center;
+    padding: 15px 0;
+    margin-bottom: 0;
+}
+.cart-items span {
+    font-size: 17px;
+    line-height: 21px;
+    padding: 10px 0;
+    display: block;
+    font-weight: 700;
+}
+.cart-info ul {
+    padding-top: 10px;
+}
+.cart-info ul li {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 6px 0px;
+}
+.cart-info ul li:last-child {
+    color: #00a790;
+}

@@ -1,0 +1,32 @@
+.slider-area {
+    margin: 0 2%;
+}
+.slider-part {
+    max-width: 1711px;
+    margin: auto;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.slider-title {
+    max-width: 954px;
+    margin: auto;
+    text-align: center;
+}
+.slider-title h2 {
+    font-size: 77px;
+    line-height: 98px;
+    font-weight: 400;
+    color: #fff;
+    padding: 240px 0;
+}
+@media (max-width: 991px) {
+    .header-top {
+        padding: 20px 0;
+    }
+}

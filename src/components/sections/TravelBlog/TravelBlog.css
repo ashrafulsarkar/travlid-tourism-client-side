@@ -1,0 +1,89 @@
+.blog-img {
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 212px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.blog-play-btn {
+    position: relative;
+    margin: auto;
+    width: 133px;
+    height: 133px;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.play-btn a {
+    width: 88px;
+    height: 88px;
+    background: #fff;
+    color: #00A790;
+    text-align: center;
+    line-height: 88px;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.blog-text {
+    text-align: center;
+    padding-top: 40px;
+}
+.blog-text h2 {
+    font-size: 48px;
+    font-weight: 500;
+}
+.blog-text p {
+    max-width: 880px;
+    margin: auto;
+}
+.blog-arrow button.slick-arrow {
+    transform: translateY(-220%);
+    -webkit-transform: translateY(-220%);
+    -moz-transform: translateY(-220%);
+    -ms-transform: translateY(-220%);
+    -o-transform: translateY(-220%);
+}
+
+@media (max-width: 767px){
+    .blog-img {
+        padding: 15% 0;
+    }
+    .blog-play-btn {
+        width: 80px;
+        height: 80px;
+    }
+    .play-btn a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .blog-text h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .blog-text p {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .blog-img {
+        padding: 65px 0;
+    }
+}

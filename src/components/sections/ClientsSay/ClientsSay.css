@@ -1,0 +1,63 @@
+.testimonial-part {
+    background: #F4FBFA;
+    padding: 30px 35px;
+    border-radius: 10px;
+}
+.user-img {
+    display: inline-block;
+    float: left;
+}
+.user-img img {
+    border-radius: 50%;
+    width: 92px;
+    height: 92px;
+}
+.test-user-details {
+    display: inline-block;
+    float: left;
+    margin-left: 25px;
+}
+.test-user-details h3 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+.test-user-details p {
+    margin-left: 3px;
+    line-height: 20px;
+}
+.test-icon {
+    display: inline-block;
+    float: right;
+    margin-top: 20px;
+}
+.test-icon i {
+    font-size: 37px;
+    color: #00A790;
+}
+.user-says {
+    clear: both;
+    padding-top: 25px;
+    margin-right: 10px;
+}
+.user-says p {
+    margin-bottom: 0;
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .testimonial-part {
+        padding: 30px 25px;
+    }
+}
+@media (max-width: 767px){
+    .testimonial-part {
+        padding: 30px 25px;
+    }
+    .test-user-details {
+        display: block;
+        float: inherit;
+        margin-left: inherit;
+        text-align: center;
+    }
+}

@@ -1,0 +1,595 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .slider-area {
+        margin: 0 2%;
+    }
+    .bookPart {
+        padding: 30px;
+        width: 1050px;
+        margin: auto;
+    }
+    .popular-destinations {
+        width: 450px !important;
+    }
+    .post-pagination .page-item .page-link {
+        padding: 3px 14px;
+        font-size: 20px;
+    }
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .main-menu ul li a {
+        padding: 50px 15px;
+    }
+    .slider-area {
+        margin: 0 2%;
+    }
+    .destination-menu button {
+        padding: 10px 20px;
+    }
+    .destination-text {
+        width: 250px;
+    }
+    .spacial-part {
+        width: 290px;
+    }
+    .spacial-text h3 {
+        font-size: 20px;
+    }
+    .spacial-text {
+        padding: 26px 20px;
+    }
+    .spacial-btn {
+        padding: 20px;
+    }
+    .spacial-btn .btn {
+        padding: 10px 7px;
+    }
+    .spacial-btn span {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .instaItems {
+        width: 285px;
+    }
+    .test-user-details h3 {
+        font-size: 25px;
+    }
+    .blog-arrow button.slick-arrow {
+        transform: translateY(-300%);
+        -webkit-transform: translateY(-300%);
+        -moz-transform: translateY(-300%);
+        -ms-transform: translateY(-300%);
+        -o-transform: translateY(-300%);
+    }
+    .slider-breadcrumb li.breadcrumb-item {
+        font-size: 60px;
+        line-height: 65px;
+    }
+    .popular-destinations {
+        width: 360px !important;
+    }
+    .post-pagination .page-item .page-link {
+        padding: 3px 14px;
+        font-size: 20px;
+    }
+    .about_part h2 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-top {
+        padding: 15px 0;
+    }
+    .slider-area {
+        margin: 0 2%;
+    }
+    .bookPart {
+        padding: 20px;
+        top: -55px;
+    }
+    .nice-select {
+        font-size: 17px;
+        line-height: 65px;
+        height: 65px;
+        padding-left: 10px;
+    }
+    .select-booknow select,
+    .select-booknow input {
+        height: 65px;
+    }
+    .nice-select .list {
+        font-size: 17px;
+    }
+    .book-btn .btn {
+        font-size: 20px;
+        padding: 22px 0;
+    }
+    .slider-title h2 {
+        font-size: 68px;
+        line-height: 72px;
+        padding-top: 150px;
+    }
+    .site-tile h3 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .destination-menu button {
+        padding: 6px 10px;
+        font-size: 15px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    .destination-text {
+        width: 185px;
+    }
+    .destination-text h4 {
+        font-size: 20px;
+        line-height: 18px;
+        padding-top: 15px;
+    }
+    .destination-text p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 0px;
+    }
+    .destBtn .btn {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+    .spacial-part {
+        width: 320px;
+    }
+    .spacial-btn {
+        padding: 20px;
+    }
+    .spacial-btn span {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+    .spacial-text {
+        padding: 26px 20px;
+    }
+    .instaItems {
+        width: 215px;
+    }
+    .blog-img {
+        padding: 15% 0;
+    }
+    .blog-arrow button.slick-arrow {
+        transform: translateY(-330%);
+        -webkit-transform: translateY(-330%);
+        -moz-transform: translateY(-330%);
+        -ms-transform: translateY(-330%);
+        -o-transform: translateY(-330%);
+    }
+    .slider-breadcrumb li.breadcrumb-item {
+        font-size: 50px;
+        line-height: 55px;
+    }
+    .slider-breadcrumb .breadcrumb {
+        padding: 150px 0;
+    }
+    .popular-destinations {
+        width: 300px !important;
+    }
+    .destination-items.mb-70 {
+        margin-bottom: 35px;
+    }
+    .post-pagination .page-item .page-link {
+        padding: 3px 14px;
+        font-size: 20px;
+    }
+    .contact-info ul li {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .cart-items {
+        padding: 0 20px;
+    }
+    .cart-info ul li {
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .post-title h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .search-post input {
+        height: 65px;
+    }
+    .post-title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .post-text h3 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    .post-author h3 {
+        font-size: 34px;
+    }
+    .about_part h2 {
+        font-size: 30px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+    .counter-full {
+        padding-top: 0;
+    }
+    .counter-full .single-counter h3,
+    .counter-full .single-counter span.counter {
+        font-size: 28px;
+        margin-bottom: 0;
+    }
+    .counter-full .single-counter span {
+        font-size: 14px;
+    }
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+    .header-top {
+        padding: 15px 0;
+    }
+    .slider-area {
+        margin: 0 2%;
+    }
+    .bookPart {
+        padding: 20px;
+        top: -96px;
+    }
+    .select-booknow {
+        max-width: none;
+        margin: inherit;
+    }
+    .nice-select {
+        font-size: 17px;
+        line-height: 65px;
+        height: 65px;
+        padding-left: 10px;
+    }
+    .select-booknow select,
+    .select-booknow input {
+        height: 65px;
+    }
+    .nice-select .list {
+        font-size: 17px;
+    }
+    .book-btn {
+        margin-top: 20px;
+    }
+    .book-btn .btn {
+        font-size: 20px;
+        padding: 22px 0;
+    }
+    .destination-menu {
+        margin-top: 50px;
+        text-align: center;
+    }
+    .destination-menu button {
+        padding: 12px 23px;
+        font-size: 12px;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+    .instaItems {
+        width: 265px;
+    }
+    .site-tile h3 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .blog-text h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .blog-text p {
+        font-size: 14px;
+    }
+    .logo {
+        width: 110px;
+    }
+    .header-btn a {
+        padding: 10px 5px;
+        font-size: 12px;
+    }
+    .mean-container a.meanmenu-reveal {
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+    }
+    .mean-container a.meanmenu-reveal {
+        top: 0px;
+    }
+    .slider-title h2 {
+        font-size: 40px;
+        line-height: 50px;
+        padding-top: 160px;
+    }
+    .select-booknow,
+    .select-booknow .nice-select {
+        margin-bottom: 20px;
+        max-width: inherit;
+    }
+    .book-btn.select-booknow {
+        margin: 0;
+    }
+    .destination-items {
+        text-align: center;
+    }
+    .destination-text {
+        width: 255px;
+    }
+    .spacial-part {
+        width: 270px;
+    }
+    .spacial-text {
+        padding: 26px 15px;
+    }
+    .spacial-text h3 {
+        font-size: 22px;
+    }
+    .spacial-btn {
+        padding: 20px 15px;
+    }
+    .spacial-btn .btn {
+        padding: 8px;
+        font-size: 12px;
+    }
+    .spacial-btn span {
+        margin-left: 5px;
+        font-size: 13px;
+    }
+    #destination {
+        padding-top: 0;
+    }
+    .destination-filter {
+        margin-top: 45px;
+    }
+    #spacial-offer {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .site-tile.mb-100 {
+        margin-bottom: 60px;
+    }
+    #instaPost {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    #client-say {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .testimonial-part {
+        width: 100%;
+        padding: 25px 15px;
+    }
+    .user-img {
+        display: block;
+        float: inherit;
+    }
+    .user-img img {
+        margin: auto;
+    }
+    .top-arrow button.slick-prev,
+    .top-arrow button.slick-next {
+        top: -110px;
+    }
+    .blog-arrow button.slick-arrow {
+        transform: translateY(-295%);
+        -webkit-transform: translateY(-295%);
+        -moz-transform: translateY(-295%);
+        -ms-transform: translateY(-295%);
+        -o-transform: translateY(-295%);
+    }
+    .test-user-details {
+        display: block;
+        float: inherit;
+        margin-left: inherit;
+        text-align: center;
+    }
+    .user-says p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    #travel-blog {
+        padding-top: 45px;
+        padding-bottom: 30px;
+    }
+    .blog-img {
+        padding: 15% 0;
+    }
+    .play-btn i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .blog-play-btn {
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+    }
+    .footer-area {
+        padding-top: 30px;
+    }
+    .footer-items {
+        padding-bottom: 30px;
+    }
+    .slider-breadcrumb li.breadcrumb-item {
+        font-size: 24px;
+        line-height: 33px;
+    }
+    .slider-breadcrumb .breadcrumb {
+        padding: 100px 0;
+    }
+    .popular-destinations h4 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .popular-destinations p {
+        font-size: 17px;
+        line-height: 21px;
+    }
+    .post-pagination .page-item .page-link {
+        padding: 0px 10px;
+        font-size: 16px;
+    }
+    .post-pagination li:first-child .page-link,
+    .post-pagination li:last-child .page-link {
+        font-size: 20px;
+    }
+    .contact-title h3 {
+        font-size: 40px;
+    }
+    .contact-info ul li {
+        font-size: 17px;
+        line-height: 35px;
+    }
+    .check-title h3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .post-title h2 {
+        font-size: 22px;
+        line-height: 35px;
+    }
+    .post-text h3 {
+        font-size: 20px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .comment-details {
+        padding: 35px 25px;
+    }
+    #travel_agency {
+        padding-top: 80px;
+    }
+    .about_part h2 {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+/* SM Small Device :576px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .header-btn {
+        margin-right: 20px;
+    }
+    .slider-title h2 {
+        font-size: 50px;
+        line-height: 60px;
+        padding-top: 135px;
+    }
+    .destination-text {
+        width: 215px;
+    }
+    .testimonial-part {
+        width: 490px;
+        padding: 30px;
+    }
+    .blog-img {
+        padding: 65px 0;
+    }
+    .blog-play-btn {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+    .play-btn i {
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .user-img {
+        display: inline-block;
+        float: left;
+        text-align: inherit;
+    }
+    .test-user-details {
+        display: inline-block;
+        float: left;
+        margin-left: 25px;
+        text-align: inherit;
+    }
+    .instaItems {
+        width: 240px;
+    }
+    .select-booknow,
+    .select-booknow .nice-select {
+        max-width: none;
+    }
+    .popular-destinations h4 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .post-title h2 {
+        font-size: 37px;
+        line-height: 50px;
+    }
+}
+
+/* popular destinations page */
+@media only screen and (min-width: 460px) and (max-width: 575px) {
+    .popular-destinations {
+        width: 360px;
+    }
+}
+
+/* arrow problem solve */
+@media only screen and (min-width: 1200px) and (max-width: 1360px),
+(min-width: 992px) and (max-width: 1100px),
+(min-width: 768px) and (max-width: 869px) {
+    .top-arrow-some-screen button.slick-prev {
+        left: inherit;
+        bottom: inherit;
+        top: -160px;
+        right: 60px;
+    }
+    .top-arrow-some-screen button.slick-next {
+        right: 10px;
+        left: inherit;
+        top: -160px;
+        bottom: inherit;
+    }
+    .blog-arrow button.slick-arrow {
+        transform: translateY(50%);
+        -webkit-transform: translateY(50%);
+        -moz-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+        -o-transform: translateY(50%);
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 700px) {
+    .top-arrow-some-screen button.slick-prev {
+        left: inherit;
+        bottom: inherit;
+        top: -110px;
+        right: 60px;
+    }
+    .top-arrow-some-screen button.slick-next {
+        right: 10px;
+        left: inherit;
+        top: -110px;
+        bottom: inherit;
+    }
+    .blog-arrow button.slick-arrow {
+        transform: translateY(50%);
+        -webkit-transform: translateY(50%);
+        -moz-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+        -o-transform: translateY(50%);
+    }
+}

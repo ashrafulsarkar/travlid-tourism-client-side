@@ -1,0 +1,19 @@
+.contact-title h3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.contact-btn .btn {
+    padding: 22px 42px;
+}
+.contact-info ul li {
+    font-size: 23px;
+    color: #414141;
+    line-height: 50px;
+}
+.contact-info ul li i {
+    color: #00a790;
+    width: 30px;
+    text-align: center;
+}

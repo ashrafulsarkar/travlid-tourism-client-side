@@ -1,0 +1,17 @@
+.service-details .price{
+    margin-bottom: 0px;
+}
+.service-details button,
+.service-details a,
+.service-details a:hover {
+    background: #44a790;
+    color: #fff;
+    border: 0;
+    padding: 4px 14px;
+    border-radius: 4px;
+}
+.service-details a,
+.service-details a:hover {
+    padding: 6px 14px;
+    margin-left: 4px;
+}

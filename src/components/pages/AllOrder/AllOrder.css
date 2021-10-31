@@ -1,0 +1,11 @@
+.order-table table td, .order-table table th {
+    border: 1px solid;
+    text-align: center;
+}
+.order-table table {
+    width: 100%;
+}
+.order-table table td h5,
+.order-table table td p{
+    margin: 0;
+}
