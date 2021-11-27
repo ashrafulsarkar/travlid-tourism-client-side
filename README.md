@@ -7,8 +7,10 @@ The Three Capes area offers a quieter version of the classic road trip, with rug
 
 ## Feature Overview
 
+* Beautiful Home page with admin Dashboard.
+* Google login system.
+* Easily handle all order.
 * Easily book one service
 * Toure nice place
 * Toure with nice gay
 * Helpfull website for Travlier.
-* Easily handle all order.
