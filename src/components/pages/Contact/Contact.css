@@ -5,12 +5,13 @@
     margin-bottom: 0;
 }
 .contact-btn .btn {
-    padding: 22px 42px;
+    padding: 16px;
+    display: block;
 }
 .contact-info ul li {
     font-size: 23px;
     color: #414141;
-    line-height: 50px;
+    line-height: 26px;
 }
 .contact-info ul li i {
     color: #00a790;

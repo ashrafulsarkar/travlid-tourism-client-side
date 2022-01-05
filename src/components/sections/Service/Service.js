@@ -13,7 +13,7 @@ const Service = (props) => {
                 <div className="destination-text">
                     <h4>{title}</h4>
                     <p className="price">Start From: ${price}</p>
-                    <p>{shortDis}</p>
+                    <p className='serviceDesc'>{shortDis}</p>
                     <div className="destBtn">
                         <Link to={`/checkout/${_id}`} className="btn">Book Now</Link>
                     </div>

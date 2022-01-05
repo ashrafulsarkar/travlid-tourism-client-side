@@ -1,3 +1,7 @@
 .destination-text .price{
     margin-bottom: 0px;
 }
+.destination-text .serviceDesc {
+    padding: 0 16px;
+    font-size: 16px;
+}
